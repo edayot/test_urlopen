@@ -10,4 +10,9 @@ print("Data:", x.data)
 
 response = urlopen(x)
 
+print("Method:", x.get_method())
+print("Full URL:", x.full_url)
+print("Headers:", dict(x.headers))
+print("Data:", x.data)
+
 print(response)
